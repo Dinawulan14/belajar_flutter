@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const Aplikasiku());
@@ -9,6 +10,10 @@ class Aplikasiku extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const MaterialApp(
+      debugShowCheckedModeBanner:
+    false,
+        home: Aplikasiku(),
+    );
   }
 }
