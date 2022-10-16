@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 void main() {
   runApp(const Aplikasiku());
 }
@@ -13,7 +13,22 @@ class Aplikasiku extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner:
     false,
-        home: Aplikasiku(),
+        home: Homepage(),
     );
   }
 }
+class Homepage extends StatefulWidget{
+  const Homepage({super.key});
+
+  @override
+  State<Homepage> createstate() =>_HomepageState();
+}
+
+// ignore: non_constant_identifier_names
+class_HomePageState extends State<Homepage> {
+  // ignore: unused_local_variable
+  var hitungan = 0;
+
+  @override
+  // ignore: unused_local_variable
+  Widget build(BuildContext contex) {
