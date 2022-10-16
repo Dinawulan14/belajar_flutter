@@ -34,7 +34,14 @@ class_HomePageState extends State<Homepage> {
   Widget build(BuildContext contex) {
     return Scaffold(
       appBar: AppBar(
-        tittle: const Text("Project Hitung"),
+        title: const Text("Project Hitung"),
         backgroundColor: Colors.blue,
       ),
-      floatingActionButton: Row(mainAxisAlignment:hitungan
+      floatingActionButton: Row(
+      mainAxisAlignment:
+    MainAxisAlignment.spaceBetween,
+    children: [
+      FloatingActionButton(onPressed:() {
+        return;
+      }
+      setState(() {
