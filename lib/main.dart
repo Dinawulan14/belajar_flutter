@@ -32,3 +32,10 @@ class_HomePageState extends State<Homepage> {
   @override
   // ignore: unused_local_variable
   Widget build(BuildContext contex) {
+    return Scaffold(
+      appBar: AppBar(
+        tittle: const Text("Project Hitung"),
+        backgroundColor: Colors.teal,
+      ),
+      floatingActionButton: Row(mainAxisAlignment:hitungan
+      
