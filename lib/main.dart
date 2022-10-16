@@ -35,7 +35,6 @@ class_HomePageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         tittle: const Text("Project Hitung"),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
       ),
       floatingActionButton: Row(mainAxisAlignment:hitungan
-      
