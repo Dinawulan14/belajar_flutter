@@ -42,6 +42,8 @@ class_HomePageState extends State<Homepage> {
     MainAxisAlignment.spaceBetween,
     children: [
       FloatingActionButton(onPressed:() {
+        if (hitungan < 1) {
         return;
-      }
-      setState(() {
+      });
+  },
+  
